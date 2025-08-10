@@ -1,7 +1,4 @@
-@import 'tailwindcss';
-@import 'tailwindcss/preflight';
-
-/* Class test*/
+@import "tailwindcss";
 
 .button-square {
   @apply w-40 h-16 
@@ -29,12 +26,4 @@
     transition-all duration-150 
     [box-shadow:0_10px_0_0_#1b6ff8,0_15px_0_0_#1b70f841]
     rounded-full;
-}
-
-.button-circle.mid {
-  @apply w-40 h-16;
-}
-
-.button-circle.circle {
-  @apply w-16 h-16;
 }
