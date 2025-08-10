@@ -16,6 +16,16 @@
     [box-shadow:0_10px_0_0_#1b6ff8,0_15px_0_0_#1b70f841];
 }
 
+.button-square:disabled {
+  @apply opacity-70 cursor-not-allowed;
+}
+
+.button-square:disabled:active {
+  @apply translate-y-0 
+    [box-shadow:0_10px_0_0_#1b6ff8,0_15px_0_0_#1b70f841]
+    border-b-0;
+}
+
 .button-circle {
   @apply bg-blue-500  
     cursor-pointer 
@@ -26,4 +36,13 @@
     transition-all duration-150 
     [box-shadow:0_10px_0_0_#1b6ff8,0_15px_0_0_#1b70f841]
     rounded-full;
+}
+
+.button-circle:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+.button-circle:disabled:active {
+  @apply translate-y-0 
+    [box-shadow:0_10px_0_0_#1b6ff8,0_15px_0_0_#1b70f841];
 }

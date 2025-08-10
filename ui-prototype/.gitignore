@@ -23,5 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
+# Claude Code files
+CLAUDE.md
+
 *storybook.log
 storybook-static
